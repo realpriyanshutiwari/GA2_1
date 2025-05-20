@@ -8,10 +8,11 @@ This report summarizes my **step count** for the past 7 days, including *daily t
 
 My step data is stored in a JSON file: `steps_week.json`
 
-
- ??Example of parsing step data in C#
+```csharp```
+ // Example of parsing step data in C#
 var steps = new int[] { 7320, 8450, 9020, 10000, 7880, 11050, 9230 };
-Console.WriteLine("Average: " + steps.Average());?
+Console.WriteLine("Average: " + steps.Average());
+
 
 
 - Consistently met daily goal
